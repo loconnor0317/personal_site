@@ -1,6 +1,6 @@
 body {
     background-color: rgb(216, 216, 233);
-    color: rgb(83, 42, 124) 
+    color: rgb(16, 87, 16) 
 }
 div {
     color:dark rgb(16, 87, 16);
@@ -8,18 +8,29 @@ div {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h1 {
+    color: rgb(76, 37, 113);
+    font-size: x-large;
+
+}
 h2 {
     color: rgb(54, 113, 54);
     text-align: center;
-    font-size:x-large
+    font-size:xx-large;
+    font-weight: 300;
 }
 p  {
     color: rgb(54, 113, 54);
-    text-align: center;
+    text-align: left;
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-img {
-        display: block;
-        margin: auto;
+section {
+    color: rgb(54, 113, 54);
+    text-align: left;
+    font-size: xx-large;
 }
+image {
+    border-style: none;
+}
+   
