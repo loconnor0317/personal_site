@@ -1,36 +1,66 @@
 body {
-    background-color: rgb(216, 216, 233);
-    color: rgb(16, 87, 16) 
+    background-color: rgb(221, 221, 240);
 }
-div {
-    color:dark rgb(16, 87, 16);
-    text-align: left;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+header {
+    color: rgb(76, 37, 113);
+    text-align: center;  
 }
+
 h1 {
     color: rgb(76, 37, 113);
-    font-size: x-large;
-
+    font-size: 50px;
 }
+
 h2 {
     color: rgb(54, 113, 54);
     text-align: center;
-    font-size:xx-large;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: bold;
 }
-p  {
-    color: rgb(54, 113, 54);
+
+p, h3  {
+    color: rgb(76, 37,113 );
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300px;
+}
+
+label,
+.submit_btn {
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: left;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: x-large;
+    font-weight: 200px
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 section {
     color: rgb(54, 113, 54);
-    text-align: left;
-    font-size: xx-large;
+    font-size: 30px;
 }
-image {
-    border-style: none;
+
+h1:hover, a:hover {
+    background-color: rgb(194, 184, 205);
 }
-   
+
+a {
+    color: rgb(71, 71, 168);
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: beige;
+    }
+}
+
